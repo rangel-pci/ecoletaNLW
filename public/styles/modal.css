@@ -1,0 +1,103 @@
+#modal{
+	height: 100vh;
+	width: 100vw;
+
+	background: #0e0a14ef;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	transition: 0.25s;
+}
+
+#modal.hide{
+	display: none;
+}
+
+#modal .content{
+	color: #fff;
+
+	width: 420px;
+}
+
+#modal .header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-bottom: 50px;
+}
+
+#modal .header span{
+	background: url(../assets/x.svg);
+
+	width: 20px;
+	height: 20px;
+	display: flex;
+
+	font-size: 0.01px;
+	cursor: pointer;
+}
+
+#modal .header h1{
+	color: #fff;
+	font-size: 35px;
+}
+
+#modal form label{
+	font-size: 15px;
+	line-height: 15px;
+
+	display: block;
+	margin-bottom: 5px;
+}
+
+#modal form .search-field{
+	display: flex;
+}
+
+#modal form input{
+	flex: 1;
+
+	background: #f0f0f5;
+	border: none;
+	border-radius: 5px 0 0px 5px;
+
+	padding: 15px 25px;
+
+	font-size: 15px;
+	color: #6c6c80;
+}
+
+#modal form button{
+	width: 70px;
+	height: 70px;
+
+	background: var(--primary-color);
+
+	border: none;
+	border-radius: 0 5px 5px 0;
+
+	cursor: pointer;
+}
+
+#modal form button:hover{
+	background-color: #2fb86e;	
+}
+
+#modal.point .content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#modal.point h1{
+	color: #fff;
+
+	margin-top: 30px;
+}

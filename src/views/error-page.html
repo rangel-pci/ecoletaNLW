@@ -1,0 +1,29 @@
+{% extends "partials/layout.html" %}
+
+{% set title = "Error - Ecoleta" %}
+{% set pageId = "page-error" %}
+
+{% block style %}
+	<link rel="stylesheet" type="text/css" href="styles/error.css">
+{% endblock style %}
+
+{% block content %}
+	{% include "partials/page-header.html" %}
+	
+	<h1>
+		{% if text %}
+			{{ text }}
+		{% else %}
+			Infelizmente houve um erro ao carregar a página. ):
+		{% endif %}
+	</h1>
+
+{% endblock content %}
+
+{% block script %}
+	<script type="text/javascript">
+		setTimeout(() => {
+			window.location = "{{ src }}";
+		}, 3000);
+	</script>	
+{% endblock script %}
