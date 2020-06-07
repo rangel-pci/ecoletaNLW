@@ -19,7 +19,10 @@ class Point{
 			`;
 
 			const { image, name, address, address2, state, city, items } = data;
-			const values = [image, name, address, address2, state, city, items];
+
+			const itemsNames = items.replace(/\,+/g,', ')+'.';
+
+			const values = [image, name, address, address2, state, city, itemsNames];
 
 			db.run(query, values, function afterInsertData(error){
 				if(error){
