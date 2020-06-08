@@ -25,16 +25,16 @@ Project developed during the "Next Level Week" event by <a href="https://github.
 <h2>install & run</h2>
 
 ```bash
-#Clone the repository<br/>
+#Clone the repository
 $ git clone https://github.com/rangel-pci/ecoletaNLW.git
 
-#Enter the repository folder<br/>
+#Enter the repository folder
 $ cd ecoletaNLW
 
-#Install the dependencies<br />
+#Install the dependencies
 $ npm install
 
-#Run the application<br />
+#Run the application
 $ npm start
 
 #Open in http://localhost:3000/
