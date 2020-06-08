@@ -18,7 +18,9 @@ Project developed during the "Next Level Week" event by <a href="https://github.
 
 - <a href="https://nodejs.org/en/">NodeJS</a>
 - <a href="https://expressjs.com/">ExpressJS</a>
+- <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a>
 - <a href="https://www.sqlite.org/index.html">SQLite3</a>
+- <a href="https://servicodados.ibge.gov.br/api/docs/localidades?versao=1">IBGE API</a>
 
 <h2>install & run</h2>
 
